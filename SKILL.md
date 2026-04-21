@@ -67,7 +67,7 @@ Claude: [跑] xq expose buy --count 100 --mock
 ## 和其它 skill / CLI 关系
 
 - **唯一外部依赖**：`vault`（读 session_token / phone ↔ request_id 映射）
-- **不用**：host / oss / backup / cashier / membership / shipyard / hitch（本项目自治单体实验）
+- **不用**：host / oss / backup / cashier / membership / hitch（本项目自治单体实验；shipyard 因 2026-04-22 判定保留改 Python 栈，暂不强制自治）
 - **不收跨项目邮件**：`.mailbox/` 不设；跨项目协作走直接 ping
 
 ## 安装（未来）

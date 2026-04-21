@@ -14,7 +14,7 @@ npx skills add acong-tech/skill-xiangqin
 
 ## Version
 
-Current: `0.1.0`
+Current: `0.2.0`
 
 ## License
 
